@@ -1,0 +1,22 @@
+{
+  "name": "serv",
+  "version": "1.0.0",
+  "main": "serv.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "fastify": "^4.28.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
